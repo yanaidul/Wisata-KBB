@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02a017ad89cd27943b54735616e7ade4, type: 3}
+  m_Name: PlayerData
+  m_EditorClassIdentifier: 
+  _username: 
+  _totalScore: 0
+  _sejarahProgression: 0
+  _pengertianProgression: 0
+  _wisataAlamProgression: 0
+  _wisataBuatanProgression: 0
+  _wisataSenbudProgression: 0

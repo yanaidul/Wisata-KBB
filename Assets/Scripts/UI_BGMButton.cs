@@ -10,6 +10,12 @@ public class UI_BGMButton : MonoBehaviour
     //[SerializeField] private BGM _bgm;
 
     private bool isClicked = false;
+    private BGM _bgm;
+
+    private void Start()
+    {
+        _bgm = BGM.GetInstance();
+    }
 
     public void OnClickBGMButton()
     {
@@ -21,15 +27,14 @@ public class UI_BGMButton : MonoBehaviour
     {
 
         isClicked = false;
-        //_bgm.UnpauseBGM();
-        //_bgm.PlayBGM();
+        _bgm.PlayBGM();
         _bgmButton.sprite = _activeButton;
     }
 
     private void BGMButtonInactive()
     {
         isClicked = true;
-        //_bgm.PauseBGM();
+        _bgm.PauseBGM();
         _bgmButton.sprite = _inactiveButton;
     }
 }

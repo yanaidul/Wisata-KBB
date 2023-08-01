@@ -7,7 +7,11 @@ public class PageSwitcher : MonoBehaviour
     [SerializeField] private GameObject _nextButton;
     [SerializeField] private GameObject _previousButton; 
 
-    private int _currentPageIndex = 0; 
+    private int _currentPageIndex = 0;
+
+    #region Properties
+    public int CurrentPageIndex => _currentPageIndex;
+    #endregion
 
     private void OnEnable()
     {
@@ -69,5 +73,10 @@ public class PageSwitcher : MonoBehaviour
         {
             _previousButton.SetActive(_currentPageIndex > 0);
         }
+    }
+
+    public int GetPageLength()
+    {
+        return _pages.Length;
     }
 }

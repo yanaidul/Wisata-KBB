@@ -15,7 +15,9 @@ public enum CanvasType
     Pengertian,
     WisataAlam,
     WisataBuatan,
-    WisataSenbud
+    WisataSenbud,
+    Login,
+    Admin
 }
 
 public class CanvasManager : Singleton<CanvasManager>
@@ -28,7 +30,7 @@ public class CanvasManager : Singleton<CanvasManager>
         base.Awake();
         _canvasControllerList = GetComponentsInChildren<CanvasController>(true).ToList();
         _canvasControllerList.ForEach(x => x.gameObject.SetActive(false));
-        SwitchCanvas(CanvasType.MainMenu);
+        SwitchCanvas(CanvasType.Login);
     }
 
     public void SwitchCanvas(CanvasType type)
