@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Script yang diberikan pada gameobject jawaban pada game quiz yang dimana akan menjalankan method sesuai dengan benar/tidaknya jawaban.
+/// Jawaban bisa di setting di inspector game object
+/// </summary>
+
 public enum AnswerType
 {
     Correct,

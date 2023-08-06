@@ -4,6 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+/// <summary>
+/// Script untuk menghandle progress bar (sejarah,wisata buatan,dll) dari player
+/// </summary>
+
 [RequireComponent(typeof(Slider))]
 public class FillProgression : MonoBehaviour
 {

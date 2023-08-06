@@ -5,6 +5,9 @@ using PlayFab;
 using PlayFab.ClientModels;
 using Newtonsoft.Json;
 
+/// <summary>
+/// Script yang berfungsi sebagai parent class dari playfab manager yang berisi komando untuk save dan load data dari playfab
+/// </summary>
 public class BackendHandler : MonoBehaviour
 {
 

@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Script yang di assign pada button bgm agar bisa ganti sprite/visual sesuai dengan statenya (nyala/mati)
+/// </summary>
 public class UI_BGMButton : MonoBehaviour
 {
     [SerializeField] private Sprite _activeButton, _inactiveButton;

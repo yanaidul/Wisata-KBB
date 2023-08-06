@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-
+/// <summary>
+/// Script untuk menghandle progress bar secara keseluruhan (yang terdapat di menu UI)
+/// </summary>
 public class TotalProgression : MonoBehaviour
 {
     [Header("SO")]

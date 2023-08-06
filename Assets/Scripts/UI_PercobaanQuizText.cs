@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+/// <summary>
+/// Script yang diberikan pada text percobaan quiz agar jumlah percobaannya bisa di update sesuai dengan percobaan quiz yang tersisa
+/// </summary>
 [RequireComponent(typeof(TextMeshProUGUI))]
 public class UI_PercobaanQuizText : MonoBehaviour
 {

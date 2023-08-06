@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Script untuk menghandle sfx yang terjadi di dalam game
+/// </summary>
 [RequireComponent(typeof(AudioSource))]
 public class SoundManager : Singleton<SoundManager>
 {

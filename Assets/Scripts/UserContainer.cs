@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-
+/// <summary>
+/// Script yang digunakan di tampilan admin untuk memberikan noabsen,nama,dll pada 1 baris container
+/// </summary>
 public class UserContainer : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _noAbsen;

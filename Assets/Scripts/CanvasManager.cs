@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
+/// <summary>
+/// Script yang berperan sebagai manager canvas, yang dimana disini di definisikan tipe canvas, dan kodingan agar 
+/// canvas dapat berpindah dari 1 canvas ke canvas lainnya
+/// </summary>
 public enum CanvasType
 {
     MainMenu,

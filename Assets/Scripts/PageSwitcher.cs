@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Script untuk menghandle perpindahan page (sejarah,wisata buatan,dll)
+/// </summary>
 public class PageSwitcher : MonoBehaviour
 {
     [SerializeField] private GameObject[] _pages;

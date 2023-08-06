@@ -8,6 +8,9 @@ using PlayFab;
 using PlayFab.ClientModels;
 using System;
 
+/// <summary>
+/// Script untuk menghandle backend playfab yang dimana tugas utamanya untuk ambil progress player dari player data ke playfab dan sebaliknya untuk load data dari playfab
+/// </summary>
 public class PlayfabManager : BackendHandler
 {
     [Header("PlayerData")]
@@ -30,7 +33,6 @@ public class PlayfabManager : BackendHandler
     #region Properties
     public List<PlayerDataScriptableObject.PlayerDataStructure> DataStructList => _dataStructList;
     #endregion
-
 
     #region Login/Register
     public void RegisterButton()
@@ -84,8 +86,8 @@ public class PlayfabManager : BackendHandler
         {
             _playerData.ResetData();
             _playerData.SetPlayerUsername(_nameInput.text);
-            _playerData.SetLastTImeLogin(GetCurrentTimeWithFormat());
             LoadPlayerData();
+            _playerData.SetLastTImeLogin(GetCurrentTimeWithFormat());
             SendLeaderboard();
             CanvasManager.GetInstance().SwitchCanvas(CanvasType.MainMenu);
             Debug.Log("Login success");

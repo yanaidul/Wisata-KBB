@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
+/// <summary>
+/// Script untuk memberikan animasi lompat pada game object
+/// </summary>
 public class Anim_CharacterJump : MonoBehaviour
 {
     [SerializeField] private float _targetY = 0.1f;

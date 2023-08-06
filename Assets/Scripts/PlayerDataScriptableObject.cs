@@ -3,6 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Script untuk player data scriptable object yang berperan sebagai penampungan data player secara sementara
+/// </summary>
 [CreateAssetMenu(fileName ="PlayerData",menuName = "ScriptableObject/PlayerDataScriptableObject")]
 [Serializable]
 public class PlayerDataScriptableObject : ScriptableObject,IInitializer<PlayerDataScriptableObject.PlayerDataStructure>

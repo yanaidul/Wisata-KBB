@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Script untuk memanage segala hal yang berkaitan dengan mini game quiz, seperti flow pertanyaan,update score, menampilkan popup
+/// </summary>
 public class QuizManager : Singleton<QuizManager>
 {
     [Header("SO")]

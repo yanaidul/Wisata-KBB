@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Script yang di assign pada suatu button dan membuat button itu dapat membuka canvas sesuai yg diinginkan di inspector
+/// </summary>
 [RequireComponent(typeof(Button))]
 public class CanvasSwitcher : MonoBehaviour
 {
