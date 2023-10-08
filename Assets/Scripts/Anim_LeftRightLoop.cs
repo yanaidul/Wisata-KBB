@@ -3,9 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-/// <summary>
-/// Script animasi kiri-kanan secara loop yang berikan pada suatu game object
-/// </summary>
 public class Anim_LeftRightLoop : MonoBehaviour
 {
     [SerializeField] private float _targetX = 0.3f;

@@ -3,10 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine.SceneManagement;
 
-/// <summary>
-/// Script yang berfungsi untuk menghandle BGM dalam game (set volume,stop,dll)
-/// </summary>
-
 [RequireComponent(typeof(AudioSource))]
 public class BGM : Singleton<BGM>
 {

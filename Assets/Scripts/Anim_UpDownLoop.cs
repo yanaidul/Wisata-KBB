@@ -3,9 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-/// <summary>
-/// Script animasi naik turun secara loop yang diberikan ke suatu game object
-/// </summary>
 public class Anim_UpDownLoop : MonoBehaviour
 {
     [SerializeField] private float _targetY = 0.3f;

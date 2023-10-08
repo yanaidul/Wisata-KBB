@@ -1,9 +1,5 @@
 using UnityEngine;
 
-/// <summary>
-/// Script parent class yang membuat child class menjadi singleton (dapat secara mudah di reference ke script lain)
-/// </summary>
-/// <typeparam name="T"></typeparam>
 public abstract class Singleton<T> : MonoBehaviour where T : Component
 {
     private static T instance;

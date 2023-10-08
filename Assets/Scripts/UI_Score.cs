@@ -3,10 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-
-/// <summary>
-/// Script yang diberikan ke script UI score agar score textnya terupdate setelah jawaban benar/salah di quiz game
-/// </summary>
 public class UI_Score : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _scoreText;

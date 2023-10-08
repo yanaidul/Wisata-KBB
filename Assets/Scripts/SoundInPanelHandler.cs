@@ -3,9 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-/// <summary>
-/// Script untuk memberikan audio clip sesuai dengan panel yang muncul di layar pemain
-/// </summary>
 public class SoundInPanelHandler : MonoBehaviour
 {
     [Header("AudioClips")]

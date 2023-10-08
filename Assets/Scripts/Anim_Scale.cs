@@ -3,9 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-/// <summary>
-/// Script animasi scale membesar yang diberikan pada suatu gameobject
-/// </summary>
 public class Anim_Scale : MonoBehaviour
 {
     [SerializeField] private Vector3 _targetScale;
